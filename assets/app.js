@@ -18,7 +18,7 @@ function applyTelegramTheme() {
 }
 
 // Открыть чат по username
-function openChat(username = 'your_username') {
+function openChat(username = 'SeregaHD') {
   const link = `https://t.me/${username}`;
   if (tg?.openTelegramLink) {
     tg.openTelegramLink(link);
@@ -159,11 +159,11 @@ window.addEventListener('DOMContentLoaded', async () => {
   applyTelegramTheme();
 
   // Кнопки чата
-  document.getElementById('openChat')?.addEventListener('click', () => openChat('your_username'));
-  document.getElementById('openChat2')?.addEventListener('click', () => openChat('your_username'));
+  document.getElementById('openChat')?.addEventListener('click', () => openChat('SeregaHD'));
+  document.getElementById('openChat2')?.addEventListener('click', () => openChat('SeregaHD'));
 
   // Кнопки хиро
-  document.getElementById('bookBtn')?.addEventListener('click', () => openChat('your_username'));
+  document.getElementById('bookBtn')?.addEventListener('click', () => openChat('SeregaHD'));
   document.getElementById('viewCV')?.addEventListener('click', () => {
     // Поменяй на реальную ссылку твоего PDF
     window.open('assets/portfolio.pdf', '_blank');
@@ -178,3 +178,4 @@ window.addEventListener('DOMContentLoaded', async () => {
   renderQuotes(data.quotes);
   setupFilters(data.projects);
 });
+
