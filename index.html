@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Серёга — дизайнер</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Telegram WebApp API -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div id="app" class="app">
+    <!-- Top bar (optional logo + theme-aware bg) -->
+    <nav class="topbar">
+      <div class="brand">
+        <img src="assets/images/avatar.jpg" alt="Серёга" class="avatar" />
+        <div class="brand-text">
+          <strong>Серёга — дизайнер</strong>
+          <span>Брендинг • Упаковка • Визуальный сторителлинг</span>
+        </div>
+      </div>
+      <button class="cta outline" id="openChat">Связаться</button>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Создаю визуальные решения для брендов</h1>
+        <p>Стратегия, стиль и реализм. От логотипа до упаковки и полки.</p>
+        <div class="hero-actions">
+          <button class="cta solid" id="bookBtn">Запросить проект</button>
+          <button class="cta ghost" id="viewCV">Скачать портфолио (PDF)</button>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/images/hero-cover.jpg" alt="Премиальная упаковка" />
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="section about">
+      <h2>Обо мне</h2>
+      <p>
+        Работаю на стыке креативной дирекции и производства: от идеи до
+        печати. Люблю премиальные фактуры, продуманную типографику и
+        визуальную целостность. Быстро собираю тестовые версии, чищу
+        несовпадения и веду к финалу без сюрпризов.
+      </p>
+      <ul class="tags">
+        <li>Брендинг</li>
+        <li>Упаковка</li>
+        <li>Арт‑дирекция</li>
+        <li>Препресс</li>
+        <li>Illustrator/ECMA</li>
+        <li>PDF/SVG</li>
+      </ul>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section portfolio">
+      <div class="section-head">
+        <h2>Проекты</h2>
+        <div class="filters">
+          <button class="chip active" data-filter="all">Все</button>
+          <button class="chip" data-filter="branding">Брендинг</button>
+          <button class="chip" data-filter="packaging">Упаковка</button>
+          <button class="chip" data-filter="editorial">Editorial</button>
+        </div>
+      </div>
+      <div class="grid" id="portfolioGrid">
+        <!-- Карточки заполняются из data.json или из app.js -->
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+      <h2>Отзывы</h2>
+      <div class="quotes" id="quotes">
+        <!-- Отзывы заполняются динамически -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact">
+      <h2>Контакты</h2>
+      <div class="contact-card">
+        <div class="contact-row">
+          <span class="label">Telegram</span>
+          <a href="#" id="tgLink">@your_username</a>
+        </div>
+        <div class="contact-row">
+          <span class="label">Email</span>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+        <div class="contact-actions">
+          <button class="cta solid" id="openChat2">Открыть чат</button>
+          <button class="cta outline" id="shareBtn">Поделиться</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>© 2025 Серёга</span>
+        <div class="socials">
+          <a href="#" aria-label="Behance">Behance</a>
+          <a href="#" aria-label="Dribbble">Dribbble</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/app.js"></script>
+</body>
+</html>
