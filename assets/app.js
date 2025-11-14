@@ -54,7 +54,7 @@ async function loadData() {
         {
           title: 'Брендинг кофе‑бренда',
           category: 'branding',
-          cover: 'assets/images/project1.jpg',
+          cover: 'assets/images/project1.png',
           meta: 'Логотип, гайд, шрифты',
           link: '#'
         },
@@ -68,7 +68,7 @@ async function loadData() {
         {
           title: 'Монокромный editorial',
           category: 'editorial',
-          cover: 'assets/images/project3.jpg',
+          cover: 'assets/images/project3.png',
           meta: 'Серия портретов, печать',
           link: '#'
         }
@@ -178,4 +178,5 @@ window.addEventListener('DOMContentLoaded', async () => {
   renderQuotes(data.quotes);
   setupFilters(data.projects);
 });
+
 
