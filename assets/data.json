@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "title": "Брендинг кофе‑бренда",
+      "category": "branding",
+      "cover": "assets/images/project1.jpg",
+      "meta": "Логотип, гайд, шрифты",
+      "link": "#"
+    },
+    {
+      "title": "Премиальная упаковка",
+      "category": "packaging",
+      "cover": "assets/images/project2.jpg",
+      "meta": "Фактура, тиснение, препресс",
+      "link": "#"
+    },
+    {
+      "title": "Монокромный editorial",
+      "category": "editorial",
+      "cover": "assets/images/project3.jpg",
+      "meta": "Серия портретов, печать",
+      "link": "#"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Упаковка стала премиальной и узнаваемой на полке.",
+      "who": "Анна",
+      "role": "Бренд‑менеджер"
+    },
+    {
+      "text": "Чёткий процесс, аккуратная типографика, высокий реализм.",
+      "who": "Илья",
+      "role": "Директор по продукту"
+    }
+  ]
+}
