@@ -127,6 +127,7 @@ img { max-width: 100%; display: block; }
 .chip {
   border: 1px solid var(--border);
   background: var(--chip);
+  background-size: cover;
   color: var(--text);
   border-radius: 999px;
   padding: 8px 12px;
@@ -193,4 +194,5 @@ img { max-width: 100%; display: block; }
   .hero { grid-template-columns: 1fr; }
   .hero-media { order: -1; }
 }
+
 
