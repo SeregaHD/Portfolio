@@ -30,8 +30,9 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: 'Lato', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
+
 
 a { color: var(--accent); text-decoration: none; }
 img { max-width: 100%; display: block; }
@@ -192,3 +193,4 @@ img { max-width: 100%; display: block; }
   .hero { grid-template-columns: 1fr; }
   .hero-media { order: -1; }
 }
+
