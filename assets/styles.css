@@ -155,7 +155,7 @@ img { max-width: 100%; display: block; }
 .card-body { padding: 10px; display: flex; flex-direction: column; gap: 4px; }
 .card-title { font-weight: 600; }
 .card-meta { color: var(--muted); font-size: 0.93rem; }
-.card-actions { display: flex; gap: 8px; margin-top: 8px; }
+.card-actions { display: flex; gap: 8px; margin: 8px; }
 
 /* Testimonials */
 .quotes { display: grid; grid-template-columns: 1fr; gap: 10px; }
@@ -194,5 +194,6 @@ img { max-width: 100%; display: block; }
   .hero { grid-template-columns: 1fr; }
   .hero-media { order: -1; }
 }
+
 
 
